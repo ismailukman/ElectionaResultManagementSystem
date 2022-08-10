@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/main"
+    android:layout_height="match_parent"
+    android:fillViewport="false">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="820dp"
+        android:id="@+id/a"
+        android:paddingRight="10dp">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/tableLayout"
+                android:layout_marginTop="40dp"
+                android:paddingStart="5dp"
+                android:paddingLeft="5dp"
+                android:layout_below="@+id/imageView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="10dp"
+                    android:text="Party Logo"
+                    android:id="@+id/textView"
+                    android:textColor="#FFF0C289"
+                    android:typeface="sans"
+                    android:layout_margin="5dp"
+                    android:textSize="20sp"
+                    android:layout_alignBottom="@+id/textView"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Acronym"
+                    android:id="@+id/textView1"
+                    android:textColor="#FFF0C289"
+                    android:paddingStart="5dp"
+                    android:paddingLeft="5dp"
+                    android:layout_margin="5dp"
+                    android:typeface="sans"
+                    android:textSize="23sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_column="2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Result"
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:textSize="23sp"
+                    android:layout_margin="5dp"
+                    android:id="@+id/textView2"
+                    android:textColor="#FFF0C289"
+                    android:layout_column="3" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:padding="2dp"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView2"
+                    android:src="@drawable/a"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A"
+                    android:id="@+id/textView01"
+                    android:textColor="#00bbff"
+                    android:layout_margin="10dp"
+                    android:typeface="sans"
+                    android:textSize="22sp"
+                    android:layout_alignBottom="@+id/textView"
+                    android:layout_centerHorizontal="true"
+                    android:layout_column="2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_marginTop="15dp"
+                    android:text="Vote Count"
+                    android:textColor="#FF80F0BD"
+                    android:id="@+id/textView4"
+                    android:layout_column="3" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:padding="2dp"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView3"
+                    android:src="@drawable/aa"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AA"
+                    android:id="@+id/textView02"
+                    android:textColor="#00bbff"
+                    android:layout_margin="10dp"
+                    android:typeface="sans"
+                    android:textSize="22sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_column="2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_marginTop="15dp"
+                    android:text="Vote Count"
+                    android:textColor="#FF80F0BD"
+                    android:id="@+id/textView5"
+                    android:layout_column="3" />
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:padding="2dp"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView4"
+                    android:src="@drawable/acd"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ACD"
+                    android:id="@+id/textView03"
+                    android:textColor="#00bbff"
+                    android:layout_margin="10dp"
+                    android:typeface="sans"
+                    android:textSize="22sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_column="2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_marginTop="15dp"
+                    android:text="Vote Count"
+                    android:textColor="#FF80F0BD"
+                    android:id="@+id/textView6"
+                    android:layout_column="3" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:padding="2dp"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView5"
+                    android:src="@drawable/acpn"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ACPN"
+                    android:id="@+id/textView04"
+                    android:textColor="#00bbff"
+                    android:layout_margin="10dp"
+                    android:typeface="sans"
+                    android:textSize="22sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_column="2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_marginTop="15dp"
+                    android:text="Vote Count"
+                    android:textColor="#FF80F0BD"
+                    android:id="@+id/textView7"
+                    android:layout_column="3" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:padding="5dp"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView6"
+                    android:src="@drawable/ad"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AD"
+                    android:id="@+id/textView05"
+                    android:textColor="#00bbff"
+                    android:layout_margin="10dp"
+                    android:typeface="sans"
+                    android:textSize="22sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_column="2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_marginTop="15dp"
+                    android:text="Vote Count"
+                    android:textColor="#FF80F0BD"
+                    android:id="@+id/textView8"
+                    android:layout_column="3" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:padding="2dp"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView7"
+                    android:src="@drawable/adc"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ADC"
+                    android:id="@+id/textView06"
+                    android:textColor="#00bbff"
+                    android:layout_margin="10dp"
+                    android:typeface="sans"
+                    android:textSize="22sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_column="2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_marginTop="15dp"
+                    android:text="Vote Count"
+                    android:textColor="#FF80F0BD"
+                    android:id="@+id/textView9"
+                    android:layout_column="3" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:padding="2dp"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView8"
+                    android:src="@drawable/apa"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="APA"
+                    android:id="@+id/textView07"
+                    android:textColor="#00bbff"
+                    android:layout_margin="10dp"
+                    android:typeface="sans"
+                    android:textSize="22sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_column="2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_marginTop="15dp"
+                    android:text="Vote Count"
+                    android:textColor="#FF80F0BD"
+                    android:id="@+id/textView010"
+                    android:layout_column="3" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:padding="2dp"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView9"
+                    android:src="@drawable/apc"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="APC"
+                    android:id="@+id/textView08"
+                    android:textColor="#00bbff"
+                    android:layout_margin="10dp"
+                    android:typeface="sans"
+                    android:textSize="22sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_column="2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_marginTop="15dp"
+                    android:text="Vote Count"
+                    android:textColor="#FF80F0BD"
+                    android:id="@+id/textView011"
+                    android:layout_column="3" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:padding="2dp"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView10"
+                    android:src="@drawable/apga"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="APGA"
+                    android:id="@+id/textView09"
+                    android:textColor="#00bbff"
+                    android:layout_margin="10dp"
+                    android:typeface="sans"
+                    android:textSize="22sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_column="2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_marginTop="15dp"
+                    android:text="Vote Count"
+                    android:textColor="#FF80F0BD"
+                    android:id="@+id/textView012"
+                    android:layout_column="3" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:padding="2dp"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView11"
+                    android:src="@drawable/cpp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CPP"
+                    android:id="@+id/textView10"
+                    android:textColor="#00bbff"
+                    android:layout_margin="10dp"
+                    android:typeface="sans"
+                    android:textSize="22sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_column="2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_marginTop="15dp"
+                    android:text="Vote Count"
+                    android:textColor="#FF80F0BD"
+                    android:id="@+id/textView013"
+                    android:layout_column="3" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:padding="2dp"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView12"
+                    android:src="@drawable/dpp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DPP"
+                    android:id="@+id/textView11"
+                    android:textColor="#00bbff"
+                    android:layout_margin="10dp"
+                    android:typeface="sans"
+                    android:textSize="22sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_column="2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_marginTop="15dp"
+                    android:text="Vote Count"
+                    android:textColor="#FF80F0BD"
+                    android:id="@+id/textView014"
+                    android:layout_column="3" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:padding="2dp"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView13"
+                    android:src="@drawable/fesh"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FRESH"
+                    android:id="@+id/textView12"
+                    android:textColor="#00bbff"
+                    android:layout_margin="10dp"
+                    android:typeface="sans"
+                    android:textSize="22sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_column="2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_marginTop="15dp"
+                    android:text="Vote Count"
+                    android:textColor="#FF80F0BD"
+                    android:id="@+id/textView015"
+                    android:layout_column="3" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:padding="2dp"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView14"
+                    android:src="@drawable/hdc"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="HDP"
+                    android:id="@+id/textView13"
+                    android:textColor="#00bbff"
+                    android:layout_margin="10dp"
+                    android:typeface="sans"
+                    android:textSize="22sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_column="2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_marginTop="15dp"
+                    android:text="Vote Count"
+                    android:textColor="#FF80F0BD"
+                    android:id="@+id/textView016"
+                    android:layout_column="3" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:padding="2dp"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView15"
+                    android:src="@drawable/id"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ID"
+                    android:id="@+id/textView14"
+                    android:textColor="#00bbff"
+                    android:layout_margin="10dp"
+                    android:typeface="sans"
+                    android:textSize="22sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_column="2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_marginTop="15dp"
+                    android:text="Vote Count"
+                    android:textColor="#FF80F0BD"
+                    android:id="@+id/textView017"
+                    android:layout_column="3" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:padding="2dp"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView16"
+                    android:src="@drawable/kp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="KP"
+                    android:id="@+id/textView15"
+                    android:textColor="#00bbff"
+                    android:layout_margin="10dp"
+                    android:typeface="sans"
+                    android:textSize="22sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_column="2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_marginTop="15dp"
+                    android:text="Vote Count"
+                    android:textColor="#FF80F0BD"
+                    android:id="@+id/textView018"
+                    android:layout_column="3" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:padding="2dp"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView17"
+                    android:src="@drawable/lp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LP"
+                    android:id="@+id/textView16"
+                    android:textColor="#00bbff"
+                    android:layout_margin="10dp"
+                    android:typeface="sans"
+                    android:textSize="22sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_column="2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_marginTop="15dp"
+                    android:text="Vote Count"
+                    android:textColor="#FF80F0BD"
+                    android:id="@+id/textView019"
+                    android:layout_column="3" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:padding="2dp"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView18"
+                    android:src="@drawable/mppp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MPPP"
+                    android:id="@+id/textView17"
+                    android:textColor="#00bbff"
+                    android:layout_margin="10dp"
+                    android:typeface="sans"
+                    android:textSize="22sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_column="2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_marginTop="15dp"
+                    android:text="Vote Count"
+                    android:textColor="#FF80F0BD"
+                    android:id="@+id/textView020"
+                    android:layout_column="3" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:padding="2dp"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView19"
+                    android:src="@drawable/ncp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NCP"
+                    android:id="@+id/textView18"
+                    android:textColor="#00bbff"
+                    android:layout_margin="10dp"
+                    android:typeface="sans"
+                    android:textSize="22sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_column="2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_marginTop="15dp"
+                    android:text="Vote Count"
+                    android:textColor="#FF80F0BD"
+                    android:id="@+id/textView021"
+                    android:layout_column="3" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:padding="2dp"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView20"
+                    android:src="@drawable/nnpp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NNPP"
+                    android:id="@+id/textView19"
+                    android:textColor="#00bbff"
+                    android:layout_margin="10dp"
+                    android:typeface="sans"
+                    android:textSize="22sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_column="2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_marginTop="15dp"
+                    android:text="Vote Count"
+                    android:textColor="#FF80F0BD"
+                    android:id="@+id/textView022"
+                    android:layout_column="3" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:padding="2dp"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView21"
+                    android:src="@drawable/pdc"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PDC"
+                    android:id="@+id/textView20"
+                    android:textColor="#00bbff"
+                    android:layout_margin="10dp"
+                    android:typeface="sans"
+                    android:textSize="22sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_column="2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_marginTop="15dp"
+                    android:text="Vote Count"
+                    android:textColor="#FF80F0BD"
+                    android:id="@+id/textView023"
+                    android:layout_column="3" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:padding="2dp"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView22"
+                    android:src="@drawable/pdm"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PDM"
+                    android:id="@+id/textView21"
+                    android:textColor="#00bbff"
+                    android:layout_margin="10dp"
+                    android:typeface="sans"
+                    android:textSize="22sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_column="2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_marginTop="15dp"
+                    android:text="Vote Count"
+                    android:textColor="#FF80F0BD"
+                    android:id="@+id/textView024"
+                    android:layout_column="3" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:padding="2dp"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView23"
+                    android:src="@drawable/pdp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PDP"
+                    android:id="@+id/textView22"
+                    android:textColor="#00bbff"
+                    android:layout_margin="10dp"
+                    android:typeface="sans"
+                    android:textSize="22sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_column="2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_marginTop="15dp"
+                    android:text="Vote Count"
+                    android:textColor="#FF80F0BD"
+                    android:id="@+id/textView025"
+                    android:layout_column="3" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:padding="2dp"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView24"
+                    android:src="@drawable/ppa"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PPA"
+                    android:id="@+id/textView23"
+                    android:textColor="#00bbff"
+                    android:layout_margin="10dp"
+                    android:typeface="sans"
+                    android:textSize="22sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_column="2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_marginTop="15dp"
+                    android:text="Vote Count"
+                    android:textColor="#FF80F0BD"
+                    android:id="@+id/textView026"
+                    android:layout_column="3" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:padding="2dp"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView25"
+                    android:src="@drawable/ppn"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PPN"
+                    android:id="@+id/textView24"
+                    android:textColor="#00bbff"
+                    android:layout_margin="10dp"
+                    android:typeface="sans"
+                    android:textSize="22sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_column="2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_marginTop="15dp"
+                    android:text="Vote Count"
+                    android:textColor="#FF80F0BD"
+                    android:id="@+id/textView027"
+                    android:layout_column="3" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:padding="2dp"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView26"
+                    android:src="@drawable/sdp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SDP"
+                    android:id="@+id/textView25"
+                    android:textColor="#00bbff"
+                    android:layout_margin="10dp"
+                    android:typeface="sans"
+                    android:textSize="22sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_column="2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_marginTop="15dp"
+                    android:text="Vote Count"
+                    android:textColor="#FF80F0BD"
+                    android:id="@+id/textView028"
+                    android:layout_column="3" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:padding="2dp"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView27"
+                    android:src="@drawable/udp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="UDP"
+                    android:id="@+id/textView26"
+                    android:textColor="#00bbff"
+                    android:layout_margin="10dp"
+                    android:typeface="sans"
+                    android:textSize="22sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_column="2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_marginTop="15dp"
+                    android:text="Vote Count"
+                    android:textColor="#FF80F0BD"
+                    android:id="@+id/textView029"
+                    android:layout_column="3" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:padding="2dp"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView28"
+                    android:src="@drawable/upn"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="UPN"
+                    android:id="@+id/textView27"
+                    android:textColor="#00bbff"
+                    android:layout_margin="10dp"
+                    android:typeface="sans"
+                    android:textSize="22sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_column="2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_marginTop="15dp"
+                    android:text="Vote Count"
+                    android:textColor="#FF80F0BD"
+                    android:id="@+id/textView030"
+                    android:layout_column="3" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:padding="2dp"
+                android:layout_height="fill_parent">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/imageView29"
+                    android:src="@drawable/upp"
+                    android:layout_column="1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="UPP"
+                    android:id="@+id/textView28"
+                    android:textColor="#00bbff"
+                    android:layout_margin="10dp"
+                    android:typeface="sans"
+                    android:textSize="22sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_column="2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:layout_marginTop="15dp"
+                    android:text="Vote Count"
+                    android:textColor="#FF80F0BD"
+                    android:id="@+id/textView031"
+                    android:layout_column="3" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="5dp"
+                android:paddingTop="20dp"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Election Tag"
+                    android:typeface="sans"
+                    android:textColor="#ff0af0"
+                    android:id="@+id/textView29"
+                    android:layout_column="1" />
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/spinner"
+                    android:typeface="sans"
+                    android:textColor="#FFBA8B8B"
+                    android:entries="@array/Election_tag"
+                    android:layout_column="2" />
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_marginLeft="5dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="15dp"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="PhoneNo"
+                    android:typeface="sans"
+                    android:textColor="#ff0af0"
+                    android:id="@+id/textView30"
+                    android:layout_column="1" />
+
+                <Spinner
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/spinner1"
+                    android:typeface="sans"
+                    android:textColor="#FFBA8B8B"
+                    android:entries="@array/PhoneNumbers"
+                    android:layout_column="2" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:paddingStart="10dp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="10dp"
+                android:layout_height="fill_parent">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Submit"
+                    android:background="@drawable/btn3"
+                    android:id="@+id/button2"
+                    android:layout_column="2" />
+
+            </TableRow>
+
+
+
+        </TableLayout>
+        </HorizontalScrollView>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/header"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="5dp" />
+
+        </RelativeLayout>
+
+</ScrollView>

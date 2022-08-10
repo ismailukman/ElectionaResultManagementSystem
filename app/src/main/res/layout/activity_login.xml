@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/main"
+    android:layout_height="fill_parent"
+    android:fillViewport="false">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:background="@drawable/main"
+        android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".Welcome">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/header" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="PU Username"
+        android:id="@+id/textView"
+        android:textColor="#FFF0C289"
+        android:typeface="sans"
+        android:layout_marginTop="69dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="PU  UserID"
+        android:textColor="#FFF0C289"
+        android:typeface="sans"
+        android:id="@+id/textView2"
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/editText"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="PU ID"
+        android:id="@+id/textView3"
+        android:textColor="#FFF0C289"
+        android:typeface="sans"
+        android:layout_marginTop="51dp"
+        android:layout_below="@+id/editText2"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText"
+        android:layout_alignTop="@+id/textView"
+        android:textColor="#FFF0C289"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:textColor="#FFF0C289"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignStart="@+id/editText"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText3"
+        android:textColor="#FFF0C289"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:inputType="textPassword" />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="18sp"
+        android:id="@+id/button"
+        android:textColor="#ffffff"
+        android:background="@drawable/btn3"
+        android:layout_below="@+id/editText3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp" />
+
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name ="Election_tag">
+        <item value = "Select"> Select</item>
+        <item value = "Presidential"> Presidential</item>
+        <item value = "Gubernatorial"> Gubernatorial</item>
+        <item value = "Senatorial"> Senatorial</item>
+        <item value = "House of Representative"> House of Representative</item>
+        <item value = "State House of Assembly"> State House of Assembly</item>
+        <item value = "Chairmanship"> Chairmanship</item>
+    </string-array>
+
+    <string-array name ="PhoneNumbers">
+        <item value="Select"> Select</item>
+        <item value="08136605722"> 08136605722</item>
+        <item value="08058917365"> 08058917365</item>
+    </string-array>
+</resources>
